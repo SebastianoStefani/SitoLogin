@@ -1,0 +1,123 @@
+*{ box-sizing: border-box; }
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background: linear-gradient(135deg, rgb(6, 32, 43), rgb(122, 226, 207) );
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+header {
+    background: rgb(6, 32, 43);
+    padding: 0.5rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    box-shadow: 0 0 8px rgba(0,0,0,0.5);
+}
+header .logo {
+	width: 70px;
+	height: 70px;
+}
+header h1 {
+	font-family: 'Times New Roman', Times, serif;
+	margin: 40px;
+	font-weight: 700;
+	align-self: left;
+	font-size: 3rem;
+}
+nav {
+    display: flex;
+    gap: 1rem;
+}
+nav button {
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 1rem;
+    padding: 0.4rem 0.9rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.4s, color 0.4s;
+	font-weight: bold;
+}
+nav button:hover {
+    background: #fff;
+    color: rgb(6, 32, 43);
+	font-weight: bold;
+}
+a {
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+}
+a:hover {
+	color: rgb(6, 32, 43);
+	font-weight: bold;
+}
+form {
+    width: 300px;
+    margin: auto;
+    background: rgb(6, 32, 43);
+    padding: 20px;
+    border-radius: 8px;
+    color: white;
+    align-items: center;
+    box-shadow: 0 0 8px rgba(0,0,0,0.5);
+}
+form h1 {
+    text-align: left;
+    margin-bottom: 20px;
+}
+form input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background: rgb(17, 53, 68);
+    color: white;
+    font-size: 0.75rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+form input:focus {
+    outline: 2px solid #fff;
+}
+form input:hover {
+    outline: 2px solid #fff;
+}
+form button {
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 1rem;
+    padding: 0.4rem 0.9rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.4s, color 0.4s;
+	font-weight: bold;
+    align-self: center;
+}
+form button:hover {
+    background: #fff;
+    color: rgb(6, 32, 43);
+	font-weight: bold;
+}
+form a {
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+}
+form a:hover {
+	color: rgb(122, 226, 207);
+	font-weight: bold;
+}
+footer {
+    background: rgb(6, 32, 43);
+    padding: 0.3rem;
+    text-align: center;
+    color: #fff;
+    margin-top: auto;
+    box-shadow: 0 0 8px rgba(0,0,0,0.5);
+}

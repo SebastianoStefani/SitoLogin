@@ -1,0 +1,141 @@
+*{ box-sizing: border-box; }
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background: linear-gradient(135deg, rgb(6, 32, 43), rgb(122, 226, 207) );
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+header {
+    background: rgb(6, 32, 43);
+    padding: 0.5rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    box-shadow: 0 0 8px rgba(0,0,0,0.5);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+header .logo {
+	width: 70px;
+	height: 70px;
+}
+header h1 {
+	font-family: 'Times New Roman', Times, serif;
+	margin: 40px;
+	font-weight: 700;
+	align-self: left;
+	font-size: 3rem;
+}
+nav {
+    display: flex;
+    gap: 1rem;
+}
+nav button {
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 1rem;
+    padding: 0.4rem 0.9rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.4s, color 0.4s;
+	font-weight: bold;
+}
+nav button:hover {
+    background: #fff;
+    color: rgb(6, 32, 43);
+	font-weight: bold;
+}
+nav button:hover:not(:disabled) {
+    background: #fff;
+    color: rgb(6, 32, 43);
+    font-weight: 700;
+}
+nav button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+a {
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+}
+nav a:hover {
+	color: rgb(6, 32, 43);
+	font-weight: bold;
+}
+a:hover {
+	font-weight: bold;
+    color: rgb(122, 226, 207);
+}
+section {
+    padding: 10px;
+    background: rgb(17, 53, 68);
+    color: white;
+    border: 1px solid #fff;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.5);
+}
+section h2 {
+	font-size: 2rem;
+	margin-bottom: 1rem;
+	padding: 1rem;
+}
+section img {
+    align-items: center;
+    margin-bottom: 0;
+	padding: 0;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.5);
+}
+.centra-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;   
+}
+.light-blue {
+    color: rgb(122, 226, 207);
+}
+section p {
+	font-size: 1.2rem;
+	margin-bottom: 1rem;
+	padding: 1rem;
+}
+section ul {
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+    padding-bottom: 2rem;
+    font-size: 1.2rem;
+}
+section h3 {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    font-weight: bold;
+}
+footer {
+    background: rgb(6, 32, 43);
+    padding: 0.3rem;
+    text-align: center;
+    color: #fff;
+    margin-top: auto;
+    box-shadow: 0 0 8px rgba(0,0,0,0.5);
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+table, th, td {
+    border: 1px solid #ccc;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+}
